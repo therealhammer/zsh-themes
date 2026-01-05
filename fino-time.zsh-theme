@@ -26,13 +26,13 @@ function box_name {
 
 function custom_color {
     if [[ "$(box_name)" == "nixtop" ]]; then
-        echo '%{$FG[003]%}'
+        echo '%{$FG[128]%}'
     elif [[ "$(box_name)" == "braznix" ]]; then
-        echo '%{$FG[030]%}'
+        echo '%{$FG[208]%}'
     elif [[ "$(box_name)" == "desknix" ]]; then
-        echo '%{$FG[330]%}'
+        echo '%{$FG[011]%}'
     elif [[ "$(box_name)" == "nixnas" ]]; then
-        echo '%{$FG[303]%}'
+        echo '%{$FG[196]%}'
     else
         echo '%{$FG[033]%}'
     fi
